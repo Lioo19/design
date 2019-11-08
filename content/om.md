@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,35 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
+
+    hej:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-hej
+
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Kursen Teknisk webbdesign och användberhet, PA1436, ges vid Blekinge Tekniska Högskola. Den finns både som kurs på campus och på distant. Kursen syftar att förbereda sudenterna för att kunna anpassa hemsidor för just design och användbarhet och kräver förkunskaper inom HTML, CSS och PHP.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/designbild.jpg?w=500 caption="Picture of design-text"]
+
+[Github för kursen Teknisk Design](https://github.com/dbwebb-se/design)  
+[Github för min Me-sida](https://github.com/Lioo19/design)

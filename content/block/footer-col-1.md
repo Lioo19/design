@@ -1,3 +1,4 @@
-#### Footer col 1
+#### Om sidan  
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+
+Denna sida är stylad av Linnéa Olofsson för kursen _Teknisk design och användbarhet_ vid Blekinge Tekniska Högskola.

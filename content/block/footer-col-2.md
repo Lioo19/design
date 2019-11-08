@@ -1,3 +1,4 @@
-#### Footer col 2
+#### Kontakta mig
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Har du frågor eller funderingar?
+Välkommen att kontakta mig på __lioo19@student.bth.se__

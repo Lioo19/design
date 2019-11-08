@@ -1,3 +1,6 @@
-#### Footer col 3
+#### Validering
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Är du nyfiken på mer om kursen?  
+Information om den hittar du här:  
+[Dbwebb](https://dbwebb.se/kurser/design-v2)  
+[bth.se](https://www.bth.se/kurser/P0059/20172/)  

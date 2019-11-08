@@ -1,3 +1,3 @@
 #### Kursrepo
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+Kursen teknisk design och användbarhet ges på Blekinge tekniska högskola. Här hittar du vägen till kursens sida på  [Dbwebb](https://dbwebb.se/kurser/design-v2) och till [Github](https://github.com/dbwebb-se/design) .

@@ -11,6 +11,7 @@ use Anax\StyleChooser\StyleChooserController;
 // Show incoming variables and view helper functions
 //echo showEnvironment(get_defined_vars(), get_defined_functions());
 
+
 $htmlClass = $htmlClass ?? [];
 $lang = $lang ?? "sv";
 $charset = $charset ?? "utf-8";
