@@ -1,0 +1,50 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@backgroundBody: #ffffff;
+@backgroundArticle: #ffffff;
+@colorBodyText: #000000;
+@colorTextNavbar: #ffdbe4;
+
+
+html {
+    overflow-y: scroll;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    margin: 0;
+    padding: 0;
+    color: @colorBodyText;
+    background-color: @backgroundBody;
+}
+
+article {
+    margin-bottom: @magicNumber / 2;
+    background-color: @backgroundArticle;
+}
+
+ul {
+    #desinax-vgrid.push(2);
+    list-style-type: none;
+}
+
+li {
+    //display: block;
+    //font-size: 1.5em;
+    //padding: 10px;
+}
+
+* {
+    //box-sizing: border-box;
+    // padding: 0px;
+    // margin: 0px;
+}
+
+
+.rm-navbar-max {
+    color: @colorTextNavbar;
+}

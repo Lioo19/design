@@ -411,17 +411,18 @@ template {
 .site-logo-text a {
   color: #f0fff2;
 }
-.region-header-col-1 {
+.region-header-col-1,
+.region-header-col-3 {
   display: inline;
   float: left;
-  width: 15.625%;
+  width: 11.45833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-header-col-2 {
   display: inline;
   float: left;
-  width: 65.625%;
+  width: 73.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   color: #f0fff2;
