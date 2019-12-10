@@ -5173,8 +5173,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   min-width: 10em;
 }
 .rm-default a {
+  display: block;
   text-decoration: none;
   white-space: nowrap;
+  padding: 1em;
   outline: none;
 }
 .rm-default ul {
@@ -5259,7 +5261,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 .rm-max.rm-navbar {
   position: absolute;
-  top: 4px;
+  top: 16px;
   right: 24px;
 }
 .rm-max .rm-small {
@@ -5304,10 +5306,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
   background-color: #444;
-  padding: 4px 12px;
+  padding: 8px 24px;
   margin-right: 8px;
-  margin-top: 0px;
-  border-radius: 1px;
+  margin-top: 10px;
+  border-radius: 5px;
   position: relative;
   z-index: 1;
 }
@@ -5320,7 +5322,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-mobile li ul {
   padding-left: 8px;
-  font-size: 0.6em;
 }
 .rm-max .rm-mobile .rm-submenu-open > .rm-submenu-button:after {
   content: "\25B2";

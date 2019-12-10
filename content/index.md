@@ -16,7 +16,7 @@ Min me-sida i kursen design
 =========================
 
 
-[FIGURE src="image/me_field.jpg?w=300" class="right" caption="Jag i en brant backe. Vad gör man inte för konsten."]
+[FIGURE src="image/me_field.jpg?w=300" class="right1" caption="Jag i en brant backe. Vad gör man inte för konsten."]
 
 Jag heter Linnéa Olofsson och föddes en solig vårmorgon på Södersjukhuset i Stockholm. Jag
 växte upp tillsammans med mina föräldrar och min syster i en lägenhet precis invid Mariatorget på södermalm och gick i skolan nära. Jag spenderade en del av min fritid med att gå på scouterna, men som "stadsscout" fanns det inte mycket skog till vardags. Poppa popcorn på stormkök på en skolgård

@@ -151,10 +151,10 @@ a.rm-button {
 
     // The link of the menu item
     a {
-        //display: block;
+        display: block;
         text-decoration: none;
         white-space: nowrap;
-        //padding: 1em;
+        padding: 1em;
         outline: none;
 
         &:hover {
@@ -321,7 +321,7 @@ a.rm-button {
     // Place the menu button
     &.rm-navbar {
         position: absolute;
-        top: 4px;
+        top: 16px;
         right: 24px;
     }
 
@@ -376,10 +376,10 @@ a.rm-button {
             float: right;
             box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
             background-color: @maxButtonSubmenuBgColor;
-            padding: 4px 12px;
+            padding: 8px 24px;
             margin-right: 8px;
-            margin-top: 0px;
-            border-radius: 1px;
+            margin-top: 10px;
+            border-radius: 5px;
 
             // Really needed for compatibility?
             position: relative;
@@ -399,7 +399,6 @@ a.rm-button {
         /* Style for submenu */
         li ul {
             padding-left: 8px;
-            font-size: 0.6em;
         }
 
         // Header of submenu is opened
