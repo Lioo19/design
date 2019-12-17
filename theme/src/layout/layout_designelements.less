@@ -6,15 +6,16 @@
  * Variables
  */
 
-@LinkCol: #f5f5f5;
-@LinkHovCol: #b5b5b5;
+@LinkCol: #fff2e6;
+@LinkHovCol: #437851;
 @colorBodyText: #000000;
-@colorDropDown: #404040;
-@colorForHeaderFooter: #404040;
-@colorForSideHeaders: #404040;
+@colorDropDown: #45342d;
+@colorForHeaderFooter: #45342d;
+@colorForSideHeaders: #437851; //dark green
 @secondaryColor: #e6e6e6;
-@colorShadow: #bfbcb9;
+@colorShadow: #453426;
 @maxContentWidth: 960px;
+@accentColor: #21523c;
 
 /**
  * General layout
@@ -23,21 +24,22 @@
 
  .row {
      #desinax-vgrid.row();
-    // background-color: #0f0;
-     //margin-bottom: 12px;
  }
 
  .inner-wrap-header .row {
      max-width: 100%;
+     background: radial-gradient(circle, rgba(120,97,67,1) 0%, rgba(69,52,45,1) 100%);
  }
 
- .inner-wrap {
-     #desinax-vgrid.grid(1100px);
+ .inner-wrap-header .row::after {
+     max-width: 100%;
+     height: 5px;
+     background: @colorForHeaderFooter;
  }
 
  .inner-wrap-header {
      #desinax-vgrid.grid(100%);
-     background-color: #333;
+     background-color: @LinkCol;
  }
 
  .vgrid .inner-wrap {
@@ -52,8 +54,8 @@
 
  /*Navbar*/
 
- .inner-wrap-header {
-     background-image: @colorForHeaderFooter;
+ .inner-wrap-header .row {
+     background-color: @colorForHeaderFooter;
  }
 
  .site-logo-text a {
@@ -82,7 +84,7 @@
 
 a.rm-button .rm-button-face-1 {
     #desinax-hgrid.fontSize(@fontSizeH1);
-    color: #fbfdfe;
+    color: @LinkCol;
 }
 
 .site-logo-text a {
@@ -101,6 +103,12 @@ a.rm-button .rm-button-face-1 {
 
  .rm-desktop ul {
      background-image: linear-gradient(to right, @colorDropDown, @colorDropDown);
+ }
+
+ /* Main area */
+ .inner-wrap-main {
+    margin-left: @magicNumber;
+    margin-right: @magicNumber;
  }
 
  /* Page Layout*/
@@ -173,9 +181,11 @@ a.rm-button .rm-button-face-1 {
 
  .toc {
      list-style: none;
+     border-radius: 10px;
  }
  .toc h4 {
-     box-shadow: 0 -1px 10px @colorShadow;
+     box-shadow: 0 -1px 5px @colorShadow;
+     border-bottom: none;
  }
 
  .toc a {
@@ -202,6 +212,7 @@ a.rm-button .rm-button-face-1 {
      background-color: @colorForSideHeaders;
      box-shadow: 0 -1px 2px @colorShadow;
      text-align: center;
+     margin-bottom: @magicNumber;
 
  }
 
@@ -212,12 +223,15 @@ a.rm-button .rm-button-face-1 {
      background-color: @colorForSideHeaders;
      box-shadow: 0 -1px 2px @colorShadow;
      text-align: center;
-
+     margin-bottom: @magicNumber;
  }
 
  .wrap-sidebar .block h4 {
      background-color: @colorForSideHeaders;
      color: @LinkCol;
+     height: @magicNumber;
+     margin-top: 0;
+     margin-block-start: 0;
  }
 
 .region-breadcrumb {
@@ -235,8 +249,18 @@ a.rm-button .rm-button-face-1 {
      #desinax-vgrid.column(@columns / 3);
  }
 
+ .footer-column h4 {
+     border-bottom: 2px dotted @LinkCol;
+ }
+
  .footer-column-x a {
      color: @LinkHovCol;
+ }
+
+ .footer-column-1 {
+     margin-left: @magicNumber * 2;
+     margin-right: @magicNumber * 2;
+
  }
 
  .site-footer {
@@ -290,6 +314,13 @@ a.rm-button .rm-button-face-1 {
      content: "";
     // display: block;
     // clear: both;
+ }
+
+ h1 {
+     border-bottom: 2px solid @accentColor;
+     color: @accentColor;
+     font-style: italic;
+     text-align: center;
  }
 
 

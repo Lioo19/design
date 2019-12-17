@@ -45,7 +45,7 @@ Moderaterna hade den långsammaste sidan och detta beror till stor del på att d
 Google PageSpeed gav ett antal rekommendationer för varje sida för att förbättra sin presanda. Alla tre sidor fick tips om att förändra i vilket filformat de sparade sina bilder där de filformat de gav exempel på som bättre var JPEG 2000, JPEG XR eller WebP. Dessutom framkom det att det på alla tre sidor fanns överflödig CSS-kod, vilket självklart gör att sidan laddar långsammare då den har mer att processa, till ingen nytta.
 
 
-3 sekunder kom vi i gruppen överens om var en bra riktlinje för laddningstid, då vi inte upplevde centerpartiets hemsida som långsam att ladda, men gjorde det med moderaternas. Denna tid kan självfallet påverkas mycket om man prioriterar vad som laddas först, så att det som laddas först är det som möter besökaren först på sidan, vilket kommer att göra så att sidan uppfattas som betydligt snabbare. De tre sidorna vi analyserat har rätt olika laddningstider och endast en upplevs som långsam, moderaterns med en genomsnittlig laddnignstid 3.43 sekunder. D
+3 sekunder kom vi i gruppen överens om var en bra riktlinje för laddningstid, då vi inte upplevde centerpartiets hemsida som långsam att ladda, men gjorde det med moderaternas. Denna tid kan självfallet påverkas mycket om man prioriterar vad som laddas först, så att det som laddas först är det som möter besökaren först på sidan, vilket kommer att göra så att sidan uppfattas som betydligt snabbare. De tre sidorna vi analyserat har rätt olika laddningstider och endast en upplevs som långsam, moderaterns med en genomsnittlig laddnignstid 3.43 sekunder. 
 
 
 Referenser

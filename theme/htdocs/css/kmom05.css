@@ -731,6 +731,9 @@ ul {
   display: block;
   clear: both;
 }
+.inner-wrap-header .row {
+  max-width: 100%;
+}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;

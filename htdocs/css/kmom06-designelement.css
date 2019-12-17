@@ -1,8 +1,8 @@
 /*!
- * Minimalistic theme -
+ * DesignElements - 
  *
  *
- * Stylesheet for KMOM04.
+ * KMOM06.
  *
  */
 /**
@@ -409,7 +409,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -688,15 +688,15 @@ hr::after {
   background-color: #fff;
 }
 body {
-  font: 16px/1.5 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  font: 16px/1.5 Cambria, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
   padding: 0;
-  color: #000000;
-  background-color: #ffffff;
+  color: #361a00;
+  background-color: #fff2e6;
 }
 article {
   border-bottom: 1px solid black;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 ul {
   margin-left: 8.85416667%;
@@ -706,7 +706,7 @@ ul {
   background-color: gray;
 }
 .rm-navbar-max {
-  color: #ffffff;
+  color: #59433b;
 }
 /**
 * Laout design
@@ -733,17 +733,18 @@ ul {
 }
 .inner-wrap-header .row {
   max-width: 100%;
+  background: radial-gradient(circle, #786143 0%, #45342d 100%);
 }
-.inner-wrap {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1100px;
+.inner-wrap-header .row::after {
+  max-width: 100%;
+  height: 5px;
+  background: #45342d;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #333;
+  background-color: #fff2e6;
 }
 .vgrid .inner-wrap {
   background: url("../../htdocs/img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -764,11 +765,11 @@ ul {
   }
 }
 /*Navbar*/
-.inner-wrap-header {
-  background-image: #404040;
+.inner-wrap-header .row {
+  background-color: #45342d;
 }
 .site-logo-text a {
-  color: #f5f5f5;
+  color: #fff2e6;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -784,13 +785,13 @@ ul {
   width: 73.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  color: #f5f5f5;
+  color: #fff2e6;
   margin-bottom: 6px;
 }
 .region-header-col-2 a {
   font-size: 1.5em;
   line-height: 1;
-  font: MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif/1.5 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  font: Cambria, Georgia, Times, 'Times New Roman', serif/1.5 Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 .rm-desktop li a {
   padding: 0.4em;
@@ -798,7 +799,7 @@ ul {
 a.rm-button .rm-button-face-1 {
   font-size: 2.375em;
   line-height: 1.26315789;
-  color: #fbfdfe;
+  color: #fff2e6;
 }
 .site-logo-text a {
   font-size: 1.5em;
@@ -817,7 +818,12 @@ a.rm-button .rm-button-face-1 {
   max-width: 100%;
 }
 .rm-desktop ul {
-  background-image: linear-gradient(to right, #404040, #404040);
+  background-image: linear-gradient(to right, #45342d, #45342d);
+}
+/* Main area */
+.inner-wrap-main {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 /* Page Layout*/
 .region-main {
@@ -919,22 +925,24 @@ a.rm-button .rm-button-face-1 {
 }
 .toc {
   list-style: none;
+  border-radius: 10px;
 }
 .toc h4 {
-  box-shadow: 0 -1px 10px #bfbcb9;
+  box-shadow: 0 -1px 5px #453426;
+  border-bottom: none;
 }
 .toc a {
   color: #000000;
 }
 .region-breadcrumb {
-  color: #f5f5f5;
+  color: #fff2e6;
   margin-bottom: 8px;
 }
 .region-breadcrumb a {
-  color: #f5f5f5;
+  color: #fff2e6;
 }
 .next-previous a {
-  color: #f5f5f5;
+  color: #fff2e6;
 }
 .next {
   display: inline;
@@ -943,10 +951,11 @@ a.rm-button .rm-button-face-1 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 83.85416667%;
-  color: #f5f5f5;
-  background-color: #404040;
-  box-shadow: 0 -1px 2px #bfbcb9;
+  color: #fff2e6;
+  background-color: #437851;
+  box-shadow: 0 -1px 2px #453426;
   text-align: center;
+  margin-bottom: 24px;
 }
 .previous {
   display: inline;
@@ -955,14 +964,18 @@ a.rm-button .rm-button-face-1 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: -107.8125%;
-  color: #f5f5f5;
-  background-color: #404040;
-  box-shadow: 0 -1px 2px #bfbcb9;
+  color: #fff2e6;
+  background-color: #437851;
+  box-shadow: 0 -1px 2px #453426;
   text-align: center;
+  margin-bottom: 24px;
 }
 .wrap-sidebar .block h4 {
-  background-color: #404040;
-  color: #f5f5f5;
+  background-color: #437851;
+  color: #fff2e6;
+  height: 24px;
+  margin-top: 0;
+  margin-block-start: 0;
 }
 .region-breadcrumb {
   display: inline;
@@ -983,8 +996,15 @@ a.rm-button .rm-button-face-1 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.footer-column h4 {
+  border-bottom: 2px dotted #fff2e6;
+}
 .footer-column-x a {
-  color: #b5b5b5;
+  color: #437851;
+}
+.footer-column-1 {
+  margin-left: 48px;
+  margin-right: 48px;
 }
 .site-footer {
   display: inline;
@@ -1001,8 +1021,8 @@ a.rm-button .rm-button-face-1 {
   margin-right: 0.52083333%;
 }
 .inner-wrap-footer {
-  background-color: #404040;
-  color: #f5f5f5;
+  background-color: #45342d;
+  color: #fff2e6;
 }
 /*Pictures*/
 .figure {
@@ -1032,6 +1052,12 @@ a.rm-button .rm-button-face-1 {
 }
 .row::after {
   content: "";
+}
+h1 {
+  border-bottom: 2px solid #21523c;
+  color: #21523c;
+  font-style: italic;
+  text-align: center;
 }
 figure.figure,
 figure.asciinema,
