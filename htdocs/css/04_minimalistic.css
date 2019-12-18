@@ -789,8 +789,8 @@ ul {
   line-height: 1.71428571;
   font: MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif/1.5 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
-.region-header-col-2 li {
-  margin-left: 2.60416667%;
+.rm-desktop li a {
+  padding: 0.4em;
 }
 a.rm-button .rm-button-face-1 {
   font-size: 2.375em;

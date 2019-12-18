@@ -95,6 +95,11 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Designprinciper kmom06",
                     ],
+                    [
+                        "text" => "Designprincip",
+                        "url" => "rapport/designprincip",
+                        "title" => "Analys Designprincip kmom06",
+                    ],
                 ],
             ],
         ],

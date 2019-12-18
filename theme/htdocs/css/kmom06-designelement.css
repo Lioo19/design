@@ -725,11 +725,15 @@ ul {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
+  margin-left: 0;
 }
 .row::after {
   content: "";
   display: block;
   clear: both;
+}
+.inner-wrap-header .row {
+  max-width: 100%;
 }
 .inner-wrap-header .row {
   max-width: 100%;
@@ -797,8 +801,8 @@ ul {
   padding: 0.4em;
 }
 a.rm-button .rm-button-face-1 {
-  font-size: 2.375em;
-  line-height: 1.26315789;
+  font-size: 1.875em;
+  line-height: 1.6;
   color: #fff2e6;
 }
 .site-logo-text a {

@@ -1,0 +1,107 @@
+/*!
+ * DesignPrinciples -
+ *
+ *
+ * KMOM06.
+ *
+ */
+
+ /**
+ * Import various mixins
+ */
+@import "mixin/clearfix.less";
+
+/**
+* Normalze and reset the style.
+*/
+@import "normalize.css/normalize.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+
+
+/**
+ * Import the vertical grid for minimalistic.
+ */
+ @import "@desinax/vertical-grid/less/grid.less";
+
+
+/**
+ * Import the typographic grid for minimalistic.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_designprinciper.less";
+
+/**
+* Layout design
+*/
+ @import "layout/layout_designprinciper.less";
+
+/**
+ * Responsiveness
+ */
+@import "layout/responsive.less";
+
+/**
+* Font Awesome
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+//Variables for typography
+//Adapt the typographic style
+@fontFamilyHeadings: @fontFamilyTimes;
+@fontFamilyBody:     @fontFamilyMyriadPro;
+@fontFamilyCode:     "monospace";
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 24px
+@fontSizeBody: 16px;
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}

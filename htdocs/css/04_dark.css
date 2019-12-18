@@ -728,6 +728,9 @@ ul {
   display: block;
   clear: both;
 }
+.inner-wrap-header .row {
+  max-width: 100%;
+}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -784,8 +787,8 @@ ul {
   line-height: 1.2;
   font: monospace/1.5 monospace;
 }
-.region-header-col-2 li {
-  margin-left: 2.60416667%;
+.rm-desktop li a {
+  padding: 0.4em;
 }
 a.rm-button .rm-button-face-1 {
   font-size: 2.375em;
